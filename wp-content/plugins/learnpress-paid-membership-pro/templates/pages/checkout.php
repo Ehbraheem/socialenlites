@@ -257,8 +257,65 @@ $pmpro_email_field_type = apply_filters( 'pmpro_email_field_type', true );
 							<label for="fullname"><?php _e( 'Full Name', 'learnpress-paid-membership-pro' ); ?></label>
 							<input id="fullname" name="fullname" type="text" class="input <?php echo pmpro_getClassForField( "fullname" ); ?>" size="30" value="" />
 							<strong><?php _e( 'LEAVE THIS BLANK', 'learnpress-paid-membership-pro' ); ?></strong>
+						<input id="lmp_user_type" name="lmp_user_type" type="text" value="student"/>
+						</div>
+						Contact Info
+							<div>
+							<label for="lmp_office_phone"><?php _e( 'Office#', 'learnpress-paid-membership-pro' ); ?></label>
+							<input id="lmp_office_phone" name="lmp_office_phone" type="text" class="input size="30" value="<?php if(isset($_POST['lmp_office_phone'])) echo $_POST['lmp_office_phone']; ?>" />
 						</div>
 
+						<div>
+							<label for="lmp_mobile_phone"><?php _e( 'Modbile#', 'learnpress-paid-membership-pro' ); ?></label>
+							<input id="lmp_mobile_phone" name="lmp_mobile_phone" type="text" class="input size="30" value="<?php if(isset($_POST['lmp_mobile_phone'])) echo $_POST['lmp_mobile_phone']; ?>" />
+						</div>
+
+						<div>
+							<label for="lmp_company"><?php _e( 'Company', 'learnpress-paid-membership-pro' ); ?></label>
+							<input id="lmp_company" name="lmp_company" type="text" class="input size="30" value="<?php if(isset($_POST['lmp_company'])) echo $_POST['lmp_company']; ?>" />
+						</div>
+
+						<div>
+							<label for="lmp_position"><?php _e( 'Position', 'learnpress-paid-membership-pro' ); ?></label>
+							<input id="lmp_position" name="lmp_position" type="text" class="input size="30" value="<?php if(isset($_POST['lmp_position'])) echo $_POST['lmp_position']; ?>" />
+						</div>
+
+						<p>
+                            <strong>User Level: <strong>
+                        </p>
+                        <div>						
+                            <select id="lmp_memberlevel" name="lmp_memberlevel">
+                                <option value="please_select">Select Current Level</option>
+                                <?php echo Utils::course_Level_dropdown(); ?>
+                            </select>                            
+                        </div>
+			<p>
+			<div>                				 
+    <label for="lmp_memberinterest">Interests</label>
+    <select id="lmp_memberinterest[]" name="lmp_memberinterest[]" multiple="multiple" name="data[]">     
+  <optgroup label="Programming Languages">
+                        <option value="C++ / C#">C++ / C#</option>
+                        <option value="Java">Java</option>
+                        <option value="Objective-C">Objective-C</option>
+                    </optgroup>
+                    <optgroup label="Client-side scripting Languages">
+                        <option value="JavaScript">JavaScript</option>
+                    </optgroup>
+                    <optgroup label="Server-side scripting Languages">
+                        <option value="Perl">Perl</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Ruby on Rails">Ruby on Rails</option>
+                    </optgroup>
+                    <optgroup label="Mobile Platforms">
+                        <option value="Android">Android</option>
+                        <option value="iOS">iOS</option>
+                    </optgroup>
+                    <optgroup label="Document Markup Languages">
+                        <option value="HTML">HTML</option>
+                        <option value="XML">XML</option>
+                    </optgroup>
+    </select>
+ </div>					
 						<div class="pmpro_captcha">
 							<?php
 							global $recaptcha, $recaptcha_publickey;
