@@ -15,6 +15,12 @@ define( 'THIM_THEME_VERSION', '3.1.2' );
 if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
+
+// Add a custom user role
+
+$result = add_role( 'corporation', __(
+'Corporation' ),
+array( ) );
 /**
  * Translation ready
  */
