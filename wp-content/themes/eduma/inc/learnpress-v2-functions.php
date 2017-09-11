@@ -473,8 +473,8 @@ if ( ! function_exists( 'thim_related_courses' ) ) {
 						$course      = LP_Course::get_course( $course_item->ID );
 						$is_required = $course->is_required_enroll();
 						?>
-                        <article class="course-grid-3 lpr_course">
-                            <div class="course-item">
+                        <article class="course-grid-3 lpr_course">                          
+                          <div class="course-item">
                                 <div class="course-thumbnail">
                                     <a href="<?php echo get_the_permalink( $course_item->ID ); ?>">
 										<?php
