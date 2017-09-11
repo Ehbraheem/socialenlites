@@ -120,7 +120,6 @@ if ( !class_exists( 'LearnPress' ) ) {
 			$this->includes();
 			// hooks
 			$this->init_hooks();
-
 		}
 
 		public function __get( $key ) {
