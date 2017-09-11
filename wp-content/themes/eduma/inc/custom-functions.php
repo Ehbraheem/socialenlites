@@ -599,15 +599,18 @@ if ( isset( $_POST['lmp_position'] )  ) {
 			pmpro_replaceUserMeta( $user_id, $meta_keys, $meta_values );
 			
 			}
-			else if ( isset( $_POST['lmp_usertype'] )  && $_POST['lmp_usertype'] == "corporate" ) {
-				error_log("account: ".$_POST['lmp_usertype']);	
-				error_log("corporate!!");	
-		error_log("User_ID: ".$user_id);
+			else if ( isset( $_POST['lmp_usertype'] )  && $_POST['lmp_usertype'] == "corporate" ) {				
 					 // Get current user object
 					$user = get_user_by( 'id', $user_id );
 					// Add role
+					error_log("account: ".$_POST['lmp_usertype']);	
+				error_log("corporate!!");	
+		error_log("User_ID: ".$user_id);
+	
 					$user->add_role( 'corporate' );
-									
+						error_log("User: ".print_r(get_user_by( 'id', $user_id ),true));
+					error_log("role added ");	
+						
 			$lmp_companyname ="";			
 				$lmp_memberlevel ="";
 				$lmp_memberinterest ="";
