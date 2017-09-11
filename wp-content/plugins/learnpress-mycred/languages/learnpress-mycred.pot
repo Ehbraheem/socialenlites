@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-21 09:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: learnpress-mycred.php:48
+msgid "Integrating with learning management system provided by LearnPress."
+msgstr ""
+
+#: learnpress-mycred.php:67
+msgid "LearnPress: for instructors"
+msgstr ""
+
+#: learnpress-mycred.php:68
+msgid "Award %_plural% to users who are teaching in LearnPress courses system."
+msgstr ""
+
+#: learnpress-mycred.php:83
+msgid "LearnPress: for learners"
+msgstr ""
+
+#: learnpress-mycred.php:84
+msgid "Award %_plural% to users who are learning in LearnPress courses system."
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:15
+msgid "for having a course with more than 50 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:19
+msgid "for having a course with more than 100 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:23
+msgid "for having a course with more than 200 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:27
+msgid "for having a course with more than 500 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:158
+msgid "%plural% for having course with more than 50 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:166
+#: inc/hooks/mycred-hook-learnpress-instructor.php:184
+#: inc/hooks/mycred-hook-learnpress-instructor.php:202
+#: inc/hooks/mycred-hook-learnpress-instructor.php:220
+#: inc/hooks/mycred-hook-learnpress-learner.php:185
+#: inc/hooks/mycred-hook-learnpress-learner.php:209
+#: inc/hooks/mycred-hook-learnpress-learner.php:233
+msgid "Log Template"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:176
+msgid "%plural% for having course with more than 100 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:194
+msgid "%plural% for having course with more than 200 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-instructor.php:212
+msgid "%plural% for having course with more than 500 learners"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:18
+msgid "for taking a free course"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:23
+msgid "for taking a paid course"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:28
+msgid "for passing a course"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:177
+msgid "%plural% for taking a free course"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:194
+#: inc/hooks/mycred-hook-learnpress-learner.php:218
+#: inc/hooks/mycred-hook-learnpress-learner.php:242
+msgid "Limit"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:201
+msgid "%plural% for taking a paid course"
+msgstr ""
+
+#: inc/hooks/mycred-hook-learnpress-learner.php:225
+msgid "%plural% for passing a course"
+msgstr ""

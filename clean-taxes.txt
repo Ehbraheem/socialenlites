@@ -1,0 +1,4 @@
+clean-taxes.txtArray
+(
+)
+0.0012550354003906

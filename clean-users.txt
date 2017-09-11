@@ -1,0 +1,4 @@
+clean-users.txtArray
+(
+)
+0.0011289119720459
